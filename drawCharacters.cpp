@@ -17,14 +17,11 @@ int main()
     for(int i=0;i<t;i++)
     {
         cin>>x;
-    if(x.length()/2>=1 and x.length()/2<=100)
-    {
-        for(int j=0;j<x.length()/2;j++)
+        if(x.length()/2>=1 and x.length()/2<=100)
         {
-            if(j%2==0) cout<<x[j];
+            for(int j=0;j<x.length()/2;j+2) cout<<x[j];
+            cout<<"\n";
         }
-        cout<<"\n";
-    }
     }
     return 0;
 }
