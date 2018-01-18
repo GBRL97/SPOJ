@@ -4,7 +4,7 @@ Too slow, need optimalisation
 */
 #include<iostream>
 using namespace std;
-int counter(int x, int &twos, int &fives)
+int counter(int x, int &twos, int &fives)//my idea is to count twos and fives from every factor of factorial 
 {
     while(x%10==0)
     {
