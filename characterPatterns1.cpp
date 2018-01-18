@@ -18,15 +18,15 @@ int main()
     cin>>t;
     for(int i=0;i<t;i++)
     {
-        cin>>l>>c;
+        cin>>l>>c;//we are input number of lines and colums
         if(l>0 and l<100 and c>0 and c<100)
         {
             for(int j=0;j<l;j++)
             {
                 for(int k=0;k<c;k++)
                 {
-                    if((k+j)%2==0)cout<<"*";
-                    else cout<<".";
+                    if((k+j)%2==0)cout<<"*";//first and every second next column in first line is '*'
+                    else cout<<".";//then in the second line the same with '.' etc, third line starts with * etc.
                 }
                 cout<<"\n";
             }
