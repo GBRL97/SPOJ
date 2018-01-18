@@ -1,7 +1,7 @@
 /* Gabriel Nowak, 18.01.2018
 Compute the Minimum Bounding Rectangle (MBR) that surrounds the given set of 2D objects, i.e., the axis-aligned rectangle,
 which contains all of the specified objects and is the one with minimum area among all rectangles with this property.
-Seems correct, but SPOJ haven't give me max points :(
+Seems correct, but SPOJ haven't gave me max points :(
 */
 #include<iostream>
 using namespace std;
