@@ -19,7 +19,7 @@ int main()
         cin>>x;
         if(x.length()/2>=1 and x.length()/2<=100)
         {
-            for(int j=0;j<x.length()/2;j+2) cout<<x[j];
+            for(int j=0;j<x.length()/2;j+=2) cout<<x[j];
             cout<<"\n";
         }
     }
